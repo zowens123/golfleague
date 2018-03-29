@@ -10,18 +10,51 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .navbar {
+      font-family: Raleway, sans-serif;
+      margin-bottom: 0;
+      border: 0;
+      background-color: #0077B5;
+      font-size: 13px !important;
+      letter-spacing: 4px;
+      opacity: .97;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+    .nav-item {
+    margin-top: .3rem;
+    margin-left: 2rem;
+    color: #ffffff;
+    }
+    .container1 {
+      padding-top: 40px;
+      padding-bottom: 30px;
+    }
+  </style>
 </head>
 <body>
-  <div class="alert alert-danger text-center">
+<div class="alert alert-warning text-center">
   <strong>FYI!</strong> This page is under construction. Should be ready to display golf league data soon
 </div>
-<div class="container text-center">
+<nav class="navbar navbar-fixed-top navbar-trans">
+  <div class="container-fluid">
+    <ul class="nav navbar">
+      <li><a class="active nav-item" href="https://zowens123.github.io/golfleague" class="active">HOME</a></li>
+      <li><a class="nav-item" href="https://zowens123.github.io/golfleague/lastweek">WEEK REVIEW</a></li>
+      <li><a class="nav-item" href="https://zowens123.github.io/golfleague/handicaps">HANDICAP</a></li>
+      <li><a class="nav-item" href="https://zowens123.github.io/golfleague/enterscores">ENTER SCORES</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container1 text-center">
   <h1>Hello World</h1>
   <p>Golf League Page under construction</p>
   <p>This part is inside a .container class.</p> 
   <p>The .container class provides a responsive fixed width container.</p>           
 </div>
-<div class="container">
+<div class="container" style="padding-top: 10px">
   <h2>the secondary container</h2>
   <p>this is my second part for the table<br><b>next</b></p>
 
