@@ -27,10 +27,71 @@
     margin-left: 2rem;
     color: #ffffff;
     }
+
+    .nav-item:hover {
+      color: #ffffff !important;
+    }
     .container1 {
       padding-top: 40px;
       padding-bottom: 30px;
     }
+    .dropdown{
+      font-family: Raleway, sans-serif;
+      margin-bottom: 0;
+      border: 0;
+      background-color: #0077B5;
+      font-size: 13px !important;
+      letter-spacing: 4px;
+      opacity: .97;
+    }
+    .dropdown-menu{
+      font-family: Raleway, sans-serif;
+      margin-left: 40px;
+      background-color: #0077B5;
+      font-size: 15px !important;
+      letter-spacing: 4px;
+      text-align: center;
+    }
+
+  li a, .dropbtn{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    }
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0077B5;
+    }
+
+  li.dropdown {
+    display: inline-block;
+    }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0077B5;
+    min-width: 168px;
+    min-height: 70px;
+    margin-left: 32px;
+    }
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+  color: #0077B5 !important;
+  background-color: #ffffff
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
   </style>
 </head>
 <body>
@@ -41,11 +102,18 @@
   <div class="container-fluid">
     <ul class="nav navbar">
       <li><a class="active nav-item" href="https://zowens123.github.io/golfleague" class="active">HOME</a></li>
-      <li><a class="nav-item" href="https://zowens123.github.io/golfleague/lastweek">WEEK REVIEW</a></li>
+      <li><a class="nav-item" href="https://zowens123.github.io/golfleague/standings">STANDINGS</a></li>
       <li><a class="nav-item" href="https://zowens123.github.io/golfleague/handicaps">HANDICAP</a></li>
       <li><a class="nav-item" href="https://zowens123.github.io/golfleague/enterscores">ENTER SCORES</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn nav-item">PREVIOUS YEARS</a>
+        <div class="dropdown-content">
+          <a href="#">2015</a>
+          <a href="#">2016</a>
+          <a href="#">2017</a>
+        </div>
     </ul>
-  </div>
+</div>
 </nav>
 
 <div class="container1 text-center">
