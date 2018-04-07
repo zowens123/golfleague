@@ -1,234 +1,250 @@
-{
-	"beth": [{
-			"name": "Justin Rose",
-			"rd1": 0,
-			"rd2": -2,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Jason Day",
-			"rd1": 3,
-			"rd2": -1,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Matt Kuchar",
-			"rd1": -4,
-			"rd2": 3,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Adam Scott",
-			"rd1": 3,
-			"rd2": 1,
-			"rd3": "",
-			"rd4": ""
-		}
-	],
-	"tim": [{
-			"name": "Jordan Spieth",
-			"rd1": -6,
-			"rd2": 2,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Vijay Singh",
-			"rd1": -1,
-			"rd2": 2,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Matt Kuchar",
-			"rd1": -4,
-			"rd2": 3,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Louis Oosthuizen",
-			"rd1": -1,
-			"rd2": -1,
-			"rd3": "",
-			"rd4": ""
-		}
-	],
-	"linh": [{
-			"name": "Rickie Fowler",
-			"rd1": -2,
-			"rd2": 0,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Tiger Woods",
-			"rd1": 1,
-			"rd2": 4,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Henrik Stenson",
-			"rd1": -3,
-			"rd2": -2,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Pat Cantlay",
-			"rd1": 3,
-			"rd2": 4,
-			"rd3": "",
-			"rd4": ""
-		}
-	],
-	"scott": [{
-			"name": "Marc Leishman",
-			"rd1": -2,
-			"rd2": -5,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Phil Mickelson",
-			"rd1": -2,
-			"rd2": 7,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Bernd Wiesberger",
-			"rd1": -2,
-			"rd2": 1,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Patrick Reed",
-			"rd1": -3,
-			"rd2": -6,
-			"rd3": "",
-			"rd4": ""
-		}
-	],
-	"cynric": [{
-			"name": "Jon Rahm",
-			"rd1": 3,
-			"rd2": -4,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Paul Casey",
-			"rd1": 2,
-			"rd2": 3,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Pat Perez",
-			"rd1": 1,
-			"rd2": 7,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Li Haotong",
-			"rd1": -3,
-			"rd2": 4,
-			"rd3": "",
-			"rd4": ""
-		}
-	],
-	"cj": [{
-			"name": "Rory McIlroy",
-			"rd1": -3,
-			"rd2": -1,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Bubba Watson",
-			"rd1": 1,
-			"rd2": -3,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Bryson DeChambeau",
-			"rd1": 2,
-			"rd2": 2,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Martin Kaymer",
-			"rd1": 2,
-			"rd2": 1,
-			"rd3": "",
-			"rd4": ""
-		}
-	],
-	"lexi": [{
-			"name": "Dustin Johnson",
-			"rd1": 1,
-			"rd2": -4,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Sergio Garcia",
-			"rd1": 9,
-			"rd2": 6,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Tommy Fleetwood",
-			"rd1": 0,
-			"rd2": 0,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Rafa Cabrera Bello",
-			"rd1": -3,
-			"rd2": 4,
-			"rd3": "",
-			"rd4": ""
-		}
-	],
-	"araceli": [{
-			"name": "Justin Thomas",
-			"rd1": 2,
-			"rd2": -5,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Hideki Matsuyama",
-			"rd1": 1,
-			"rd2": -1,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Alex Noren",
-			"rd1": 2,
-			"rd2": 7,
-			"rd3": "",
-			"rd4": ""
-		},
-		{
-			"name": "Xander Schauffele",
-			"rd1": -1,
-			"rd2": 6,
-			"rd3": "",
-			"rd4": ""
-		}
-	]
-}
+[{
+		"beth": [{
+				"name": "Justin Rose",
+				"rd1": "0",
+				"rd2": "-2",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Jason Day",
+				"rd1": "3",
+				"rd2": "-1",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Matt Kuchar",
+				"rd1": "-4",
+				"rd2": "+3",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Adam Scott",
+				"rd1": "+3",
+				"rd2": "+1",
+				"rd3": "",
+				"rd4": ""
+			}
+		]
+	},
+	{
+		"tim": [{
+				"name": "Jordan Spieth",
+				"rd1": "-6",
+				"rd2": "+2",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Vijay Singh",
+				"rd1": "-1",
+				"rd2": "+2",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Matt Kuchar",
+				"rd1": "-4",
+				"rd2": "+3",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Louis Oosthuizen",
+				"rd1": "-1",
+				"rd2": "-1",
+				"rd3": "",
+				"rd4": ""
+			}
+		]
+	},
+	{
+		"linh": [{
+				"name": "Rickie Fowler",
+				"rd1": "-2",
+				"rd2": "0",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Tiger Woods",
+				"rd1": "+1",
+				"rd2": "+4",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Henrik Stenson",
+				"rd1": "-3",
+				"rd2": "-2",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Pat Cantlay",
+				"rd1": "+3",
+				"rd2": "+4",
+				"rd3": "",
+				"rd4": ""
+			}
+		]
+	},
+	{
+		"scott": [{
+				"name": "Marc Leishman",
+				"rd1": "-2",
+				"rd2": "-5",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Phil Mickelson",
+				"rd1": "-2",
+				"rd2": "+7",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Bernd Wiesberger",
+				"rd1": "-2",
+				"rd2": "+1",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Patrick Reed",
+				"rd1": "-3",
+				"rd2": "-6",
+				"rd3": "",
+				"rd4": ""
+			}
+		]
+	},
+	{
+		"cynric": [{
+				"name": "Jon Rahm",
+				"rd1": "+3",
+				"rd2": "-4",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Paul Casey",
+				"rd1": "+2",
+				"rd2": "+3",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Pat Perez",
+				"rd1": "+1",
+				"rd2": "+7",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Li Haotong",
+				"rd1": "-3",
+				"rd2": "+4",
+				"rd3": "",
+				"rd4": ""
+			}
+		]
+	},
+	{
+		"cj": [{
+				"name": "Rory McIlroy",
+				"rd1": "-3",
+				"rd2": "-1",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Bubba Watson",
+				"rd1": "+1",
+				"rd2": "-3",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Bryson DeChambeau",
+				"rd1": "+2",
+				"rd2": "+2",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Martin Kaymer",
+				"rd1": "+2",
+				"rd2": "+1",
+				"rd3": "",
+				"rd4": ""
+			}
+		]
+	},
+	{
+		"lexi": [{
+				"name": "Dustin Johnson",
+				"rd1": "+1",
+				"rd2": "-4",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Sergio Garcia",
+				"rd1": "+9",
+				"rd2": "+6",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Tommy Fleetwood",
+				"rd1": "0",
+				"rd2": "0",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Rafa Cabrera Bello",
+				"rd1": "-3",
+				"rd2": "+4",
+				"rd3": "",
+				"rd4": ""
+			}
+		]
+	},
+	{
+		"araceli": [{
+				"name": "Justin Thomas",
+				"rd1": "+2",
+				"rd2": "-5",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Hideki Matsuyama",
+				"rd1": "+1",
+				"rd2": "-1",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Alex Noren",
+				"rd1": "+2",
+				"rd2": "+7",
+				"rd3": "",
+				"rd4": ""
+			},
+			{
+				"name": "Xander Schauffele",
+				"rd1": "-1",
+				"rd2": "+6",
+				"rd3": "",
+				"rd4": ""
+			}
+		]
+
+	}
+]
