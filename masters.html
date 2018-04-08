@@ -14,6 +14,16 @@
   <script type="text/javascript" src="masters1.js"></script>
    <script type="text/javascript" src="https://zowens123.github.io/golfleague/data.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+
+function TotalPriceCalc() {
+    var total = 0;
+    $(".total").each(function() {
+        total += parseFloat($(this).text());
+    });
+    $("#lblTotal").val(total);
+}
+  </script>
 
 <style type="text/css">
     .navbar {
@@ -119,22 +129,22 @@
   <h1>LMS MASTERS CHALLENGE</h1>         
 </div>
 <div class="jumbotron">
-  <h3 style="text-align: center;">LEADERBOARD</h3>
+  <h3 style="text-align: center;">FINAL STANDINGS</h3>
 <div class="container col-sm-4" style="padding-left: 0px; padding-top: 30px; text-align: center;">
-  <table class="table">
+  <table id="leaders" class="table">
     <thead>
       <tr style="text-align: center;"><th>Place</th><th>Team</th><th>Score</th></tr>
     </thead>
     <tbody>
       <tr>
-        <th>1</th><th>Scott</th><th>+2</th>
-        <tr><th>2</th><th>Scott</th><th>+2</th></tr>
-        <tr><th>3</th><th>Scott</th><th>+2</th></tr>
-        <tr><th>4</th><th>Scott</th><th>+2</th></tr>
-        <tr><th>5</th><th>Scott</th><th>+2</th></tr>
-        <tr><th>6</th><th>Scott</th><th>+2</th></tr>
-        <tr><th>7</th><th>Scott</th><th>+2</th></tr>
-        <tr><th>8</th><th>Scott</th><th>+2</th></tr>
+        <tr><th>1</th><th>Scott</th><th id="stotal">-22</th></tr>
+        <tr><th>2</th><th>Linh</th><th id="litotal">-15</th></tr>
+        <tr><th>3</th><th>CJ</th><th id="cjtotal">-9</th></tr>
+        <th>4</th><th>Bethany</th><th id="btotal">-7</th>
+        <tr><th>4</th><th>Cynric</th><th id="cytotal">-7</th></tr>
+        <tr><th>6</th><th>Tim</th><th id="ttotal">-1</th></tr>
+        <tr><th>7</th><th>Lexi</th><th id="letotal">+6</th></tr>
+        <tr><th>8</th><th>Araceli</th><th id="atotal">+10</th></tr>
       </tr>
     </tbody>
   </table>
@@ -143,9 +153,242 @@
 </div>
 
 <div class="container" style="padding-top: 10px">
-  <div class="col-sm-5" style="float: left;">
+  <div class="col-sm-6" style="float: left;">
+    <h4>Scott</h4>
+          <table class="player table">
+          <thead>
+            <tr>
+              <th class="r">Player</th>
+              <th class="r">RD 1</th>
+              <th class="r">RD 2</th>
+              <th class="r">RD 3</th>
+              <th class="r">RD 4</th>
+              <th class="r">TOTAL</th>
+            </tr>
+          </thead>
+         <tbody>
+              <tr>
+                <td id="">Patrick Reed</td>
+                <td id="">-3</td>
+                <td id="">-6</td>
+                <td id="">-5</td>
+                <td id="">-1</td>
+                <td class="total">-15</td>
+              </tr>
+              <tr>
+                <td id="">Marc Leishman</td>
+                <td id="">-2</td>
+                <td id="">-5</td>
+                <td id="">+1</td>
+                <td id="">-2</td>
+                <td class="total">-8</td>
+              </tr>
+              <tr>
+                <td id="">Bernd Wiesberger</td>
+                <td id="">-2</td>
+                <td id="">+1</td>
+                <td id="">0</td>
+                <td id="">0</td>
+                <td class="total">-1</td>
+              </tr>
+               <tr>
+                <td id="">Phil Mickelson</td>
+                <td id="">-2</td>
+                <td id="">+7</td>
+                <td id="">+2</td>
+                <td id="">-5</td>
+                <td class="total">+2</td>
+              </tr>
+            </tbody>
+        </table>
+      <h4>CJ</h4>
+          <table class="player table">
+          <thead>
+            <tr>
+              <th class="r">Player</th>
+              <th class="r">RD 1</th>
+              <th class="r">RD 2</th>
+              <th class="r">RD 3</th>
+              <th class="r">RD 4</th>
+              <th class="r">TOTAL</th>
+            </tr>
+          </thead>
+         <tbody>
+                 <td id="">Rory McIlroy</td>
+                <td id="">-3</td>
+                <td id="">-1</td>
+                <td id="">-7</td>
+                <td id="">+2</td>
+                <td class="total">-9</td>
+              </tr>
+               <tr>
+                <td id="">Bubba Watson</td>
+                <td id="">+1</td>
+                <td id="">-3</td>
+                <td id="">-4</td>
+                <td id="">-3</td>
+                <td class="total">-9</td>
+              </tr>
+              <tr>
+                <td id="">Bryson DeChambeau</td>
+                <td id="">+2</td>
+                <td id="">+2</td>
+                <td id="">0</td>
+                <td id="">-1</td>
+                <td class="total">+3</td>
+              </tr>
+              <tr>
+                <td id="">Martin Kaymer</td>
+                <td id="">+2</td>
+                <td id="">+1</td>
+                <td id="">+2</td>
+                <td id="">+1</td>
+                <td class="total">+6</td>
+              </tr>
+            </tbody>
+        </table>
+<h4>Cynric</h4>
+          <table class="player table">
+          <thead>
+            <tr>
+              <th class="r">Player</th>
+              <th class="r">RD 1</th>
+              <th class="r">RD 2</th>
+              <th class="r">RD 3</th>
+              <th class="r">RD 4</th>
+              <th class="r">TOTAL</th>
+            </tr>
+          </thead>
+         <tbody>
+                 <td id="">Jon Rahm</td>
+                <td id="">+3</td>
+                <td id="">-4</td>
+                <td id="">-7</td>
+                <td id="">-3</td>
+                <td class="total">-11</td>
+              </tr>
+               <tr>
+                <td id="">Paul Casey</td>
+                <td id="">+2</td>
+                <td id="">+3</td>
+                <td id="">-3</td>
+                <td id="">-7</td>
+                <td class="total">-5</td>
+              </tr>
+              <tr>
+                <td id="">Li Haotong</td>
+                <td id="">-3</td>
+                <td id="">+4</td>
+                <td id="">0</td>
+                <td id="">0</td>
+                <td class="total">+1</td>
+              </tr>
+              <tr>
+                <td id="">Pat Perez</td>
+                <td id="">+1</td>
+                <td id="">+7</td>
+                <td id="">cut</td>
+                <td id="">cut</td>
+                <td id="total">+8</td>
+              </tr>
+            </tbody>
+        </table>
+  <h4>Lexi</h4>
+          <table class="player table">
+          <thead>
+            <tr>
+              <th class="r">Player</th>
+              <th class="r">RD 1</th>
+              <th class="r">RD 2</th>
+              <th class="r">RD 3</th>
+              <th class="r">RD 4</th>
+              <th class="r">TOTAL</th>
+            </tr>
+          </thead>
+         <tbody>
+                 <td id="">Dustin Johnson</td>
+                <td id="">+1</td>
+                <td id="">-4</td>
+                <td id="">-1</td>
+                <td id="">-3</td>
+                <td class="total">-7</td>
+              </tr>
+              <tr>
+                <td id="">Tommy Fleetwood</td>
+                <td id="">0</td>
+                <td id="">0</td>
+                <td id="">-6</td>
+                <td id="">+1</td>
+                <td class="total">-5</td>
+              </tr>
+              <tr>
+                <td id="">Rafa Cabrera Bello</td>
+                <td id="">-3</td>
+                <td id="">+4</td>
+                <td id="">-1</td>
+                <td id="">0</td>
+                <td class="total">+3</td>
+              </tr>
+              <tr>
+                <td id="">Sergio Garcia</td>
+                <td id="">+9</td>
+                <td id="">+6</td>
+                <td id="">cut</td>
+                <td id="">cut</td>
+                <td id="total">+15</td>
+              </tr>
+            </tbody>
+        </table>
+  </div>
+  <div class="col-sm-6" style="float: right;">
+    <h4>Linh</h4>
+          <table class="player table">
+          <thead>
+            <tr>
+              <th class="r">Player</th>
+              <th class="r">RD 1</th>
+              <th class="r">RD 2</th>
+              <th class="r">RD 3</th>
+              <th class="r">RD 4</th>
+              <th class="r">TOTAL</th>
+            </tr>
+          </thead>
+          <tbody>
+                 <td id="">Rickie Fowler</td>
+                <td id="">-2</td>
+                <td id="">0</td>
+                <td id="">-7</td>
+                <td id="">-5</td>
+                <td class="total">-14</td>
+              </tr>
+              <tr>
+                <td id="">Henrik Stenson</td>
+                <td id="">-3</td>
+                <td id="">-2</td>
+                <td id="">-2</td>
+                <td id="">-2</td>
+                <td class="total">-9</td>
+              </tr>
+               <tr>
+                <td id="">Tiger Woods</td>
+                <td id="">+1</td>
+                <td id="">+3</td>
+                <td id="">0</td>
+                <td id="">-3</td>
+                <td class="total">+1</td>
+              </tr>
+              <tr>
+                <td id="">Pat Cantlay</td>
+                <td id="">+3</td>
+                <td id="">+4</td>
+                <td id="">cut</td>
+                <td id="">cut</td>
+                <td id="total">+7</td>
+              </tr>
+            </tbody>
+        </table>
   <h4>Bethany</h4>
-          <table id="beth" class="table" align="center">
+          <table class="player table">
           <thead>
             <tr>
               <th class="r">Player</th>
@@ -161,27 +404,38 @@
                 <td id="beth-name">Justin Rose</td>
                 <td id="beth-namer1">0</td>
                 <td id="beth-namer2">-2</td>
-                <td id="beth-namer3"></td>
-                <td id="beth-namer4"></td>
+                <td id="beth-namer3">-1</td>
+                <td id="beth-namer4">-3</td>
+                <td class="total">-6</td>
               </tr>
                <tr>
                 <td id="beth-name">Jason Day</td>
                 <td id="beth-namer1">+3</td>
                 <td id="beth-namer2">-1</td>
-                <td id="beth-namer3"></td>
-                <td id="beth-namer4"></td>
+                <td id="beth-namer3">-3</td>
+                <td id="beth-namer4">-1</td>
+                <td class="total">-2</td>
               </tr>
               <tr>
                 <td id="beth-name">Matt Kuchar</td>
                 <td id="beth-namer1">-4</td>
                 <td id="beth-namer2">+3</td>
-                <td id="beth-namer3"></td>
-                <td id="beth-namer4"></td>
+                <td id="beth-namer3">0</td>
+                <td id="beth-namer4">+1</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td id="beth-name">Adam Scott</td>
+                <td id="beth-namer1">+3</td>
+                <td id="beth-namer2">+1</td>
+                <td id="beth-namer3">-2</td>
+                <td id="beth-namer4">-1</td>
+                <td class="total">+1</td>
               </tr>
           </tbody>
         </table>
   <h4>Tim</h4>
-          <table class="table">
+          <table class="player table">
           <thead>
             <tr>
               <th class="r">Player</th>
@@ -192,115 +446,42 @@
               <th class="r">TOTAL</th>
             </tr>
           </thead>
-            <tbody>
-            <tr><td id="bp1" class="r"></td></tr>
-            <tr><td id="bp2" class="r"></td></tr>
-            <tr><td id="bp3" class="r"></td></tr>
-            <tr><td id="bp4" class="r"></td></tr>
-          </tbody>
+          <tbody>
+                 <td id="">Jordan Spieth</td>
+                <td id="">-6</td>
+                <td id="">+2</td>
+                <td id="">-1</td>
+                <td id="">-8</td>
+                <td class="total">-13</td>
+              </tr>
+              <tr>
+                <td id="">Louis Oosthuizen</td>
+                <td id="">-1</td>
+                <td id="">-1</td>
+                <td id="">-1</td>
+                <td id="">-3</td>
+                <td class="total">-6</td>
+              </tr>
+               <tr>
+                <td id="">Vijay Singh</td>
+                <td id="">-1</td>
+                <td id="">+2</td>
+                <td id="">+7</td>
+                <td id="">-1</td>
+                <td class="total">+7</td>
+              </tr>
+              <tr>
+                <td id="">Billy Horschel</td>
+                <td id="">+4</td>
+                <td id="">+7</td>
+                <td id="">cut</td>
+                <td id="">cut</td>
+                <td class="total">+11</td>
+              </tr>
+            </tbody>
         </table>
-  <h4>Linh</h4>
-          <table class="table">
-          <thead>
-            <tr>
-              <th class="r">Player</th>
-              <th class="r">RD 1</th>
-              <th class="r">RD 2</th>
-              <th class="r">RD 3</th>
-              <th class="r">RD 4</th>
-              <th class="r">TOTAL</th>
-            </tr>
-          </thead>
-            <tbody>
-            <tr><td id="bp1" class="r"></td></tr>
-            <tr><td id="bp2" class="r"></td></tr>
-            <tr><td id="bp3" class="r"></td></tr>
-            <tr><td id="bp4" class="r"></td></tr>
-          </tbody>
-        </table>
-  <h4>Scott</h4>
-          <table class="table">
-          <thead>
-            <tr>
-              <th class="r">Player</th>
-              <th class="r">RD 1</th>
-              <th class="r">RD 2</th>
-              <th class="r">RD 3</th>
-              <th class="r">RD 4</th>
-              <th class="r">TOTAL</th>
-            </tr>
-          </thead>
-            <tbody>
-            <tr><td id="bp1" class="r"></td></tr>
-            <tr><td id="bp2" class="r"></td></tr>
-            <tr><td id="bp3" class="r"></td></tr>
-            <tr><td id="bp4" class="r"></td></tr>
-          </tbody>
-        </table>
-  </div>
-  <div class="col-sm-5" style="float: right;">
-  <h4>Lexi</h4>
-          <table class="table">
-          <thead>
-            <tr>
-              <th class="r">Player</th>
-              <th class="r">RD 1</th>
-              <th class="r">RD 2</th>
-              <th class="r">RD 3</th>
-              <th class="r">RD 4</th>
-              <th class="r">TOTAL</th>
-            </tr>
-          </thead>
-            <tbody>
-            <tr><td id="bp1" class="r">
-            </tr>
-            <tr><td id="bp2" class="r"></td></tr>
-            <tr><td id="bp3" class="r"></td></tr>
-            <tr><td id="bp4" class="r"></td></tr>
-          </tbody>
-        </table>
-  <h4>Cynric</h4>
-          <table class="table">
-          <thead>
-            <tr>
-              <th class="r">Player</th>
-              <th class="r">RD 1</th>
-              <th class="r">RD 2</th>
-              <th class="r">RD 3</th>
-              <th class="r">RD 4</th>
-              <th class="r">TOTAL</th>
-            </tr>
-          </thead>
-            <tbody>
-            <tr><td id="bp1" class="r"></td></tr>
-            <tr><td id="bp2" class="r"></td></tr>
-            <tr><td id="bp3" class="r"></td></tr>
-            <tr><td id="bp4" class="r"></td></tr>
-          </tbody>
-        </table>
-
-  <h4>CJ</h4>
-          <table class="table">
-          <thead>
-            <tr>
-              <th class="r">Player</th>
-              <th class="r">RD 1</th>
-              <th class="r">RD 2</th>
-              <th class="r">RD 3</th>
-              <th class="r">RD 4</th>
-              <th class="r">TOTAL</th>
-            </tr>
-          </thead>
-            <tbody>
-            <tr><td id="bp1" class="r"></td></tr>
-            <tr><td id="bp2" class="r"></td></tr>
-            <tr><td id="bp3" class="r"></td></tr>
-            <tr><td id="bp4" class="r"></td></tr>
-          </tbody>
-        </table>
-
   <h4>Araceli</h4>
-          <table class="table">
+          <table class="player table">
           <thead>
             <tr>
               <th class="r">Player</th>
@@ -311,12 +492,38 @@
               <th class="r">TOTAL</th>
             </tr>
           </thead>
-            <tbody>
-            <tr><td id="bp1" class="r"></td></tr>
-            <tr><td id="bp2" class="r"></td></tr>
-            <tr><td id="bp3" class="r"></td></tr>
-            <tr><td id="bp4" class="r"></td></tr>
-          </tbody>
+                 <td id="">Justin Thomas</td>
+                <td id="">+2</td>
+                <td id="">-5</td>
+                <td id="">-2</td>
+                <td id="">+1</td>
+                <td class="total">-4</td>
+              </tr>
+               <tr>
+                <td id="">Hideki Matsuyama</td>
+                <td id="">+1</td>
+                <td id="">-1</td>
+                <td id="">0</td>
+                <td id="">-3</td>
+                <td class="total">-3</td>
+              </tr>
+              <tr>
+                <td id="">Xander Schauffele</td>
+                <td id="">-1</td>
+                <td id="">+6</td>
+                <td id="">0</td>
+                <td id="">+3</td>
+                <td class="total">+8</td>
+              </tr>
+              <tr>
+                <td id="">Alex Noren</td>
+                <td id="">+2</td>
+                <td id="">+7</td>
+                <td id="">cut</td>
+                <td id="">cut</td>
+                <td id="total">+9</td>
+              </tr>
+            </tbody>
         </table>
 </div>
 </div>
