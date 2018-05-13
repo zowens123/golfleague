@@ -538,7 +538,7 @@ function TotalPriceCalc() {
 
   var masters_functions;
 
-  $.getJSON( "mastersscores.json", function( json ) {
+  $.getJSON( "/golfleague/mastersscores.json", function( json ) {
       console.log(json);
 
       $('#beth-name').text(json.beth.name);
