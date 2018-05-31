@@ -22,6 +22,11 @@
       padding-top: 10px;
       padding-bottom: 10px;
   }
+    .navbar-center {
+    position: fixed;
+    left: 50%;
+    transform: translatex(-50%);
+    }  
     .nav-item {
     margin-top: .3rem;
     margin-left: 2rem;
@@ -30,6 +35,14 @@
 
     .nav-item:hover {
       color: #ffffff !important;
+    }
+    
+    ul.nav li a {
+    display: block;
+    text-decoration: none;
+    }
+    ul.nav li a.active {
+    color: #e0e0e0 !important;
     }
     .container1 {
       padding-top: 40px;
@@ -95,14 +108,11 @@
   </style>
 </head>
 <body>
-<div class="alert alert-warning text-center">
-  <strong>FYI!</strong> This page is under construction. Should be ready to display golf league data soon
-</div>
-<nav class="navbar navbar-fixed-top navbar-trans">
+<nav class="navbar navbar-fixed-top navbar-tran">
   <div class="container-fluid">
     <ul class="nav navbar">
-      <li><a class="active nav-item" href="/golfleague">HOME</a></li>
-      <li><a class="nav-item" href="/golfleague/standings">WEEKLY BREAKDOWN</a></li>
+      <li><a class="active nav-item" href="/golfleague">POINTS STANDINGS</a></li>
+      <li><a class="nav-item" href="/golfleague/weekly">WEEKLY BREAKDOWN</a></li>
       <li><a class="nav-item" href="/golfleague/handicaps">HANDICAPS</a></li>
       <li><a class="nav-item" href="/golfleague/enterscores">ENTER SCORES</a></li>
       <li class="dropdown">
@@ -115,32 +125,32 @@
     </ul>
 </div>
 </nav>
-
-<div class="jumbotron" style="text-align: center;">
+<div class="container1" style="text-align: center; background-color: #e0e0e0;">
   <h1>CURRENT POINTS STANDINGS</h1>
-  <div class="container col-md-8" style="padding-top: 40px;">
+  <div class="container col-md-6" style="padding-top: 40px;">
  <table class="table table-hover">
     <thead>
       <tr style="text-align: center; background-color: #0077B5; color: #ffffff;"><th>PLACE</th><th>NAME</th><th>POINTS</th></tr>
     </thead>
-    <tbody>
+    <tbody style="font-size: 16px;">
       <tr>
-        <tr><th>1</th><th></th><th></th></tr>
-        <tr><th>2</th><th></th><th></th></tr>
-        <tr><th>3</th><th></th><th></th></tr>
-        <th>4</th><th></th><th></th>
-        <tr><th>4</th><th></th><th></th></tr>
-        <tr><th>6</th><th></th><th></th></tr>
-        <tr><th>7</th><th></th><th></th></tr>
-        <tr><th>8</th><th></th><th></th></tr>
+        <tr><th>1</th><th>Tyler Parks</th><th>20</th></tr>
+        <tr><th>2</th><th>Troy Statdlander</th><th>18</th></tr>
+        <tr><th>3</th><th>Alan Castro</th><th>17</th></tr>
+        <tr><th>3</th><th>Adam Neill</th><th>17</th></tr>
+        <tr><th>5</th><th>Jon Carriker</th><th>15</th></tr>
+        <tr><th>6</th><th>Duggan Allen</th><th>14</th></tr>
+        <tr><th>6</th><th>Josh Voss</th><th>14</th></tr>
+        <tr><th>8</th><th>Jordan Svoboda</th><th>12</th></tr>
+        <tr><th>9</th><th>Josh Scranton</th><th>11</th></tr>
+        <tr><th>10</th><th>Zach Owens</th><th>10</th></tr>
+        <tr><th>10</th><th>Kirk Sims</th><th>10</th></tr>
+        <tr><th>12</th><th>Curtis Coatman</th><th>4</th></tr>
+        <tr><th>13</th><th>Joaquin Rodriquez</th><th>3</th></tr>
+        <tr><th>14</th><th>James Marsh</th><th>2</th></tr>
       </tr>
     </tbody>
   </table>          
 </div>
-</div>
-<div class="container" style="padding-top: 10px">
-  <h2>the secondary container</h2>
-  <p>this is my second part for the table<br><b>next</b></p>
-
 </body>
 </html>
